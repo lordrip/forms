@@ -1,6 +1,6 @@
 {
   "name": "@kaoto/forms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Forms library for Kaoto",
   "license": "Apache-2.0",
   "author": {
@@ -103,5 +103,6 @@
     "vite-plugin-dts": "^4.0.2",
     "vite-plugin-static-copy": "^1.0.6"
   },
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "gitHead": "770525c7b61d9d8dbc9e6e7a93d3a7c05de63587"
 }
