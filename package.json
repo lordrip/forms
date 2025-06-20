@@ -32,6 +32,7 @@
     "start": "vite --mode=dev",
     "build": "yarn rimraf dist && yarn build:esm",
     "build:esm": "tsc --project tsconfig.esm.json && copyfiles -u 2 ./src/form/**/*.scss ./dist",
+    "build:site": "vite build  --config vite.config.mjs",
     "test": "jest",
     "publish": "lerna publish"
   },
