@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.4 (2025-06-26)
+
+### Bug Fixes
+
+* cypress causing type errors in jest assertions ([621fde3](https://github.com/KaotoIO/forms/commit/621fde3672896c2bfef99e472f549ac113da2384))
+
 ## 1.0.3 (2025-06-25)
 
 **Note:** Version bump only for package @kaoto/forms
