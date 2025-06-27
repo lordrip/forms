@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2025-06-27)
+
+### Features
+
+* **Forms:** Add suggestions functionality ([49bb3b4](https://github.com/KaotoIO/forms/commit/49bb3b45053b2a3036f0310b48f4907d47e251a9))
+
 ## 1.0.4 (2025-06-26)
 
 ### Bug Fixes
