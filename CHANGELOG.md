@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2025-07-02)
+
+### Features
+
+* **Suggestions:** Add sugegstions for KeyValue and TextArea ([6879912](https://github.com/KaotoIO/forms/commit/6879912418ecd40e07d3c01b14591c8ca2e18f82))
+
 ## 1.1.3 (2025-07-01)
 
 **Note:** Version bump only for package @kaoto/forms
