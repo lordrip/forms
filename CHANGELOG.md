@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2025-08-28)
+
+### Features
+
+* **EnumField:** Allow custom values in the EnumField ([a2b451b](https://github.com/KaotoIO/forms/commit/a2b451b630e5a0fab5b6130ef55d47c705a24778))
+
 ## 1.3.1 (2025-07-30)
 
 **Note:** Version bump only for package @kaoto/forms
