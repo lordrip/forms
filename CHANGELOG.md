@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.2 (2025-09-15)
+
+### Bug Fixes
+
+* **Forms:** Click on flyOut group crashes the app ([48b2525](https://github.com/KaotoIO/forms/commit/48b252510e8d60405913606bc9b8e6c878739f98))
+
 ## 1.4.1 (2025-09-01)
 
 **Note:** Version bump only for package @kaoto/forms
