@@ -16,8 +16,10 @@ import {
   FormComponentFactoryContext,
   FormComponentFactoryContextValue,
 } from './context/form-component-factory-context';
+import { IndexedValuesField } from '../fields/IndexedValuesField/IndexedValuesField';
 
 export type CustomFieldsFactory = (schema: JSONSchema4) => FunctionComponent<FieldProps> | undefined;
+
 interface IFormComponentFactoryProvider extends PropsWithChildren {
   /**
    * Factory function to override the Field selection algorithm.
@@ -26,6 +28,7 @@ interface IFormComponentFactoryProvider extends PropsWithChildren {
    */
   customFieldsFactory?: CustomFieldsFactory;
 }
+
 export const FormComponentFactoryProvider: FunctionComponent<IFormComponentFactoryProvider> = ({
   customFieldsFactory,
   children,
@@ -43,6 +46,8 @@ export const FormComponentFactoryProvider: FunctionComponent<IFormComponentFacto
         return TextAreaField;
       } else if (schema.type === 'string' && Array.isArray(schema.enum)) {
         return EnumField;
+      } else if (schema.type === 'object' && schema.title?.toLowerCase().includes('constructors')) {
+        return IndexedValuesField;
       } else if (schema.type === 'object' && Object.keys(schema?.properties ?? {}).length === 0) {
         /*
          * If the object has no properties, we render a generic key-value pairs field

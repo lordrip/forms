@@ -5,8 +5,9 @@ import { SchemaContext } from '../../providers/SchemaProvider';
 import { FieldProps } from '../../models/typings';
 import { FieldWrapper } from '../FieldWrapper';
 import { KeyValue, KeyValueType } from '../../KeyValue/KeyValue';
+import { IndexedValue } from '../../KeyValue/IndexedValue';
 
-export const PropertiesField: FunctionComponent<FieldProps> = ({ propName, required }) => {
+export const IndexedValuesField: FunctionComponent<FieldProps> = ({ propName, required }) => {
   const { schema } = useContext(SchemaContext);
   const { value, onChange, disabled } = useFieldValue<KeyValueType | undefined>(propName);
 
@@ -26,7 +27,7 @@ export const PropertiesField: FunctionComponent<FieldProps> = ({ propName, requi
       description={schema.description}
       defaultValue={schema.default?.toString()}
     >
-      <KeyValue propName={propName} initialModel={value} onChange={onChange} disabled={disabled} />
+      <IndexedValue propName={propName} onChange={onChange} initialModel={value} disabled={disabled} />
     </FieldWrapper>
   );
 };
