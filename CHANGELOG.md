@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2025-11-28)
+
+### Features
+
+* carbon migration ([8e7c43a](https://github.com/KaotoIO/forms/commit/8e7c43a45dfc93409dfdeae641af0ab2f36f1d82))
+
 ## 1.5.9 (2025-11-03)
 
 **Note:** Version bump only for package @kaoto/forms
