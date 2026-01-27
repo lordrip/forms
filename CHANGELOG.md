@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.7 (2026-01-27)
+
+### Bug Fixes
+
+* typeahead not showing all the elements ([ed6661f](https://github.com/KaotoIO/forms/commit/ed6661f34e2b8331d065569cebf7f289ea1baa91))
+
 ## 2.1.6 (2026-01-07)
 
 **Note:** Version bump only for package @kaoto/forms
