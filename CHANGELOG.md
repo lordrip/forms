@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.11 (2026-02-11)
+
+### Bug Fixes
+
+* **Tests:** Run tests in pipeline build ([2b78ad6](https://github.com/KaotoIO/forms/commit/2b78ad64e4195bd4b7408cdf8edae9866dc2bf0c))
+
 ## 2.1.10 (2026-02-10)
 
 **Note:** Version bump only for package @kaoto/forms
